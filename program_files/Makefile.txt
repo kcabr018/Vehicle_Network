@@ -1,0 +1,17 @@
+#!/bin/bash
+#file: MakeFile
+
+prog: main.o vehicles.o tokenizer.o
+        gcc main.o vehicles.o tokenizer.o -o prog -lm
+
+main.o: main.c
+        gcc -c main.c -lm
+
+vehicles.o: vehicles.c
+        gcc -c vehicles.c -lm
+
+tokenizer.o: tokenizer.c
+        gcc -c tokenizer.c
+
+clean:
+        rm -rf *.o prog
