@@ -14,7 +14,10 @@ A file is to be made for the input data. The command to run the program takes th
 ./prog -t 5 -f input.txt
 
 prog: name of the executable created by my makefile
+
 -t 5: the interval at which the vehicle network data is to be displayed. This example gives a 5 second delay
+
 -f input.txt: means that input.txt is the file containing the input data of the program. 
+
 For the command, -t and -f must be included.
 
