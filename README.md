@@ -2,7 +2,9 @@
 This program simulates a network of vehicles. At execution, the program reads vehicle data from a file and populates a list of vehicles, their positions, their speed, and their angle of travel. At a user-defined interval, data regarding each vehicle: its current position, speed, and list of vehicles within a range of 250m, will be displayed. Input data is in the following form:
 
 2.7,10.1,5.0,45
+
 6.7,13.7,9.3,67
+
 100,100,4.5,12
 
 Each row of the above input is a vehicle. Four different values are inputted, all separated by commas. The first and second values are the x and y position of the vehicle. The third value is the speed and fourth value the degree of travel (0 to 360). The vehicles in the vehicle list made by the program are numbered based on their order in the input data.
